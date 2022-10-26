@@ -1,0 +1,47 @@
+@import url('./reset.css');
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./skills.css');
+@import url('./projects.css');
+
+:root{
+  --text-color: #fff;
+  --bg-color: #121212;
+  --blue-gray-light: #9FB3C8;
+  --blue-gray: #627D98;
+  --blue-gray-dark2: #334E68; 
+  --blue-gray-dark: #102A43;
+}
+
+*{
+  color: var(--text-color);
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--bg-color);
+}
+
+/* card */
+
+.card {
+  width: calc(180px - 2rem);
+  background-color: var(--blue-gray-dark2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card__image i{
+  font-size: 5rem;
+}
+
+.card__text{
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}

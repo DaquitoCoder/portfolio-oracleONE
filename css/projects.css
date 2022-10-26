@@ -1,0 +1,41 @@
+.projects {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects__text {
+  text-align: center;
+}
+
+.projects__title{
+  font-size: 1.8rem;
+}
+
+.projects__subtitle {
+  margin: 0.5rem 0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.3rem;
+}
+
+.projects__grid {
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.projects .card__image img{
+  width: auto;
+  height: 100px;
+}
+
+.projects .card__text{
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 425px) {
+  .projects__grid {
+    grid-template-columns: auto auto;
+  }
+}

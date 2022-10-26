@@ -1,0 +1,31 @@
+header{
+  background-color: var(--blue-gray);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  height: 50px;
+  align-items: center;
+}
+
+.header__list{
+  display: flex;
+}
+
+.header__item{
+  list-style: none;
+  margin-right: 1rem;
+}
+
+.header__link{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 425px){
+  header {
+    justify-content: center;
+  }
+
+  .header__navigation{
+    display: none;
+  }
+}
