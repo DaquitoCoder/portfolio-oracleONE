@@ -1,0 +1,41 @@
+.whoAmI {
+    display: flex;
+    background-color: var(--blue-gray-dark);
+    padding: 1rem 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.whoAmI__title{
+    font-size: 1.8rem;
+}
+
+.whoAmI__text{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 1rem;
+}
+
+.whoAmI__image {
+    display: none;
+}
+
+@media screen and (min-width: 630px) {
+    
+    .whoAmI__image {
+        display: block;
+    }
+
+    .whoAmI__text{
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .whoAmI__image img {
+        width: 300px;
+        border-radius: 10px;
+    }
+
+}

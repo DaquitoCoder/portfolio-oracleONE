@@ -1,5 +1,5 @@
 .skills {
-  padding: 1rem 0;
+  padding: 1rem 1rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -38,6 +38,7 @@
   .skills{
     flex-direction: row;
     gap: 1rem;
+    justify-content: space-evenly;
   }
 
   .skills__grid {
