@@ -26,7 +26,11 @@
   font-size: 1.2em;
 }
 
-@media screen and (min-width: 425px){
+@media screen and (min-width: 425px) {
+  .hero__text{
+    padding: 1rem;
+  }
+
   .hero h1 {
     font-size: 2rem;
   }

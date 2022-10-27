@@ -1,0 +1,23 @@
+.contact {
+  background-color: var(--blue-gray-dark);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+}
+
+.contact__title {
+  font-size: 1.8rem;
+  margin: 1rem 0;
+}
+
+.contact__socials {
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+}
+
+.contact__socials a {
+  font-size: 5rem;
+}
