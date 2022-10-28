@@ -8,13 +8,14 @@
 }
 
 .whoAmI__title{
+    font-weight: 700;
     font-size: 1.8rem;
 }
 
 .whoAmI__text{
     display: flex;
     flex-direction: column;
-    text-align: justify;
+    /* text-align: justify; */
     align-items: center;
     padding: 1rem;
     font-size: 1.3rem;

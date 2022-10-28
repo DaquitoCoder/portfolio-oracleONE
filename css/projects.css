@@ -10,19 +10,24 @@
 }
 
 .projects__title{
+  font-weight: 700;
   font-size: 1.8rem;
 }
 
 .projects__subtitle {
-  margin: 0.5rem 0;
-  font-family: 'Dancing Script', cursive;
+  padding: 0.5rem 0;
   font-size: 1.3rem;
 }
 
 .projects__grid {
   padding: 1rem 0;
   display: grid;
+  gap: 1rem;
   grid-template-columns: auto;
+}
+
+.projects .card {
+  width: calc(180px - 2rem);
 }
 
 .projects .card__image img{
@@ -31,18 +36,32 @@
   height: 100px;
 }
 
+.projects .card__text {
+  margin-top: 1rem;
+  padding: 0.6rem;
+  /* background-color: var(--blue); */
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.projects .card__text:hover {
+  background-color: var(--blue-gray-dark);
+}
+
 .projects .card__text{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
   .projects__grid {
     grid-template-columns: auto auto;
   }
+}
 
-  .projects__grid .card:last-child{
-    grid-column: 1 / 3;
-    width: 360px;
+@media screen and (min-width: 580px) and (max-width: 767px) {
+  .projects .card {
+    width: calc(250px - 2rem);
   }
 }
 

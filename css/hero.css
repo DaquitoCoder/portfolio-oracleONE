@@ -1,5 +1,5 @@
 .hero {
-  padding: 1rem 0;
+  padding: 1rem;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -26,6 +26,10 @@
   font-size: 1.2em;
 }
 
+.hero strong {
+  font-weight: 700;
+}
+
 @media screen and (min-width: 425px) {
   .hero__text{
     padding: 1rem;
@@ -44,7 +48,7 @@
 @media screen and (min-width: 630px) {
   .hero {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
 

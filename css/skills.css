@@ -12,19 +12,23 @@
 }
 
 .skills__title {
+  font-weight: 700;
   font-size: 1.8rem;
 }
 
 .skills__subtitle{
-  margin: 0.5rem 0;
-  font-family: 'Dancing Script', cursive;
+  padding: 0.5rem 0;
   font-size: 1.3rem;
 }
 
 .skills__grid {
-  padding: 1rem 0;
   display: grid;
+  gap: 1rem;
   grid-template-columns: auto;
+}
+
+.skills__grid .card {
+  height: calc(160px - 2rem);
 }
 
 @media screen and (min-width: 425px){
@@ -37,7 +41,6 @@
 
   .skills{
     flex-direction: row;
-    gap: 1rem;
     justify-content: space-evenly;
   }
 
