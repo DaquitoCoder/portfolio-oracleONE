@@ -21,4 +21,9 @@
 
 .contact__socials a {
   font-size: 5rem;
+  transition: 0.3s;
+}
+
+.contact__socials a:hover i{
+  color: var(--blue-gray-light);
 }
