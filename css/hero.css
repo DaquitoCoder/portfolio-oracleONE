@@ -5,7 +5,7 @@
   flex-direction: column;
 }
 
-.hero__image{
+.hero__image {
   background: url(../img/fotoPerfil.png) no-repeat center center/cover;
   height: 150px;
   width: 150px;
@@ -13,7 +13,7 @@
   border: 6px solid var(--blue-gray-dark);
 }
 
-.hero__text{
+.hero__text {
   text-align: center;
 }
 
@@ -31,7 +31,7 @@
 }
 
 @media screen and (min-width: 425px) {
-  .hero__text{
+  .hero__text {
     padding: 1rem;
   }
 
@@ -42,7 +42,6 @@
   .hero p {
     font-size: 1.5rem;
   }
-
 }
 
 @media screen and (min-width: 630px) {
@@ -52,3 +51,8 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .hero {
+    justify-content: space-around;
+  }
+}

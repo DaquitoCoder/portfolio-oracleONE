@@ -1,4 +1,4 @@
-header{
+header {
   background-color: var(--blue-gray-dark);
   display: flex;
   justify-content: center;
@@ -8,30 +8,35 @@ header{
   font-size: 1.3rem;
 }
 
-.header__list{
+.header__list {
   display: flex;
 }
 
-.header__navigation{
-  display: none; 
+.header__navigation {
+  display: none;
 }
-.header__item{
+.header__item {
   list-style: none;
   margin-right: 1rem;
 }
 
-.header__link{
+.header__link {
   text-decoration: none;
 }
 
-@media screen and (min-width: 425px){
-  header{
+@media screen and (min-width: 425px) {
+  header {
     font-size: 1.1rem;
     justify-content: space-between;
   }
 
-  .header__navigation{
+  .header__navigation {
     display: block;
   }
+}
 
+@media screen and (min-width: 1024px) {
+  header {
+    justify-content: space-around;
+  }
 }

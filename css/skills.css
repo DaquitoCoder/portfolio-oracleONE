@@ -16,7 +16,7 @@
   font-size: 1.8rem;
 }
 
-.skills__subtitle{
+.skills__subtitle {
   padding: 0.5rem 0;
   font-size: 1.3rem;
 }
@@ -31,15 +31,14 @@
   height: calc(160px - 2rem);
 }
 
-@media screen and (min-width: 425px){
+@media screen and (min-width: 425px) {
   .skills__grid {
     grid-template-columns: auto auto;
-  } 
+  }
 }
 
-@media screen and (min-width: 768px){
-
-  .skills{
+@media screen and (min-width: 768px) {
+  .skills {
     flex-direction: row;
     justify-content: space-evenly;
   }
@@ -47,5 +46,4 @@
   .skills__grid {
     grid-template-columns: auto auto auto;
   }
-  
 }

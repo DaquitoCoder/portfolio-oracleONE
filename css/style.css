@@ -7,22 +7,22 @@
 @import url('./formation.css');
 @import url('./contact.css');
 
-:root{
+:root {
   --text-color: #fff;
   --bg-color: #121212;
   --bg-color-sec: #202020;
-  --blue-gray-light: #9FB3C8;
-  --blue-gray: #627D98;
-  --blue-gray-dark2: #334E68; 
-  --blue-gray-dark: #102A43;
+  --blue-gray-light: #9fb3c8;
+  --blue-gray: #627d98;
+  --blue-gray-dark2: #334e68;
+  --blue-gray-dark: #102a43;
   --blue: #0f41ad;
 }
 
-*{
+* {
   color: var(--text-color);
 }
 
-body{
+body {
   font-family: 'Montserrat', sans-serif;
   background-color: var(--bg-color);
 }
@@ -41,11 +41,11 @@ body{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.card__image i{
+.card__image i {
   font-size: 5rem;
 }
 
-.card__text{
+.card__text {
   font-size: 1.5rem;
   padding: 0;
 }
